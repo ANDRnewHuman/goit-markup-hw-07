@@ -1572,8 +1572,8 @@ textarea{
 
 
 
-    /* menu-button */
-    .menu-button {
+    /* menu-toggle */
+    /* .menu-toggle {
         position: absolute;
         top: 24px;
         left: 380px;
@@ -1583,19 +1583,23 @@ textarea{
         border: none;
         background-color: transparent;
 
+    } */
+    .menu-toggle {
+        min-height: 40px;
+        min-width: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin: 0;
+        padding: 0;
+        background-color: transparent;
+        cursor: pointer;
+        border: none;
+        border-radius: 50%;
+        outline: none;
     }
 
-    .menu-button .icon-vector {
-        display: none;
-    }
-
-    .menu-button.is-open .icon-vector {
-        display: block;
-    }
-
-    .menu-button.is-open .icon-burger {
-        display: none;
-    }
 
 
 
