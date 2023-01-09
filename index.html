@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,18 +19,25 @@
 <body>
     <header class="header-het">
     <div class="conteiner header-flex">
-            <a class="logo list-a" href="./index.html">Web<span class="logo stud list-a">Studio</span></a>
+            <a class="logo list-a" href="./index.html">Web<span class="stud list-a">Studio</span></a>
             <nav>
                 <ul class="site-nav list list-a">
                     <li class="item"><a href="./index.html" class="hover current list-a">Studio</a> </li>
                     <li class="item"><a href="./portfolio.html" class="hover list-a">Portfolio</a></li>
                     <li class="item"><a href="" class="hover list-a">Contacts</a></li>
                 </ul>
+                <button type="button" class="menu-button is-open">
+                    <svg width="30" height="20" aria-label="pointer menu">
+                        <use class="icon-burger" href="./images3/sprite4.svg#icon-burger"></use>
+                        <use class="icon-vector" href="./images3/sprite4.svg#icon-vector"></use>
+                    </svg>
+                </button>
             </nav>
             <ul class="auth-nav list">
                 <li class="item"><a href="mailto:info@devstudio.com" class="hover list-a">info@devstudio.com</a></li>
                 <li class="item"><a href="tel:+11-000-111-11-11" class="hover list-a">+11 (000) 111-11-11</a></li>
             </ul>
+            
     </div>
     </header>
 
@@ -51,7 +59,7 @@
 
 
 
-        <section class="section">
+        <section class="section frut-section">
             <div class="conteiner flex-basis">
             <h2 class="visually-hidden">Features</h2>
 
@@ -130,7 +138,7 @@
                 <li class="item">
                     <img src="./images/img-4.jpg" alt="Mark Guerrero" width="264">
                     <div class="padding-cards">
-                        <h3 class="section-title-h">Mark Guerrero</h3>
+                        <h3 class="section-title-team">Mark Guerrero</h3>
                         <p class="section-title-p">Product Designer</p>
                         <ul class="off-style-icon">
                             <li class="icon-group">
@@ -347,7 +355,7 @@
 
     <footer class="footer">
         <div class="conteiner icon-flex">
-            <div>
+            <div class="logo-footer">
                 <a class="logo list-a" href="./index.html">Web<span class="footer-stud list-a">Studio</span></a>
                 <p class="text">
                     Increase the flow of customers and sales for your business with digital marketing & growth solutions.
@@ -396,14 +404,15 @@
 <!-- footer#3 -->
             <div class="footer-mail">
                 <p class="footer-text-p">Subscribe</p>
-                <form>
+                <form class="form">
                     <input class="footer-input" type="email" name="mail" id="mail" placeholder="E-mail" />
 
                     <button class="footer-button">
+                        Subscribe
                         <svg class="icon-telegram" width="24px" height="20px">
                             <use href="./images3/sprite2.svg#icon-icon-send-2"></use>
                         </svg>
-                        Subscribe
+                        
                     </button>
                 </form>
             </div>
@@ -430,7 +439,7 @@
 
 
     <!-- Модельное окно -->
-<div class="model-windows is-hidden" data-modal>
+<!-- <div class="model-windows is-hidden" data-modal>
     <div class="modal">
         <div class="div-model-button">
             <button class="model-button" data-modal-close></button>
@@ -497,11 +506,12 @@
                 </div>
             </form>
     </div>
-</div>
+</div> -->
 
 
 
 
 <script src="./js/modal.js"></script>
+<script defer src="js/mobile-menu.js"></script>
 </body>
 </html>
