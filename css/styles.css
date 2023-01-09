@@ -1589,11 +1589,11 @@ textarea{
         display: none;
     }
 
-    .menu-button.js-open-menu .icon-vector {
+    .menu-button.is-open .icon-vector {
         display: block;
     }
 
-    .menu-button.js-open-menu .icon-burger {
+    .menu-button.is-open .icon-burger {
         display: none;
     }
 
