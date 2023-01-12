@@ -51,18 +51,55 @@
     </div>
     </header>
     <div class="menu-container js-menu-container" id="mobile-menu">
-        <button class="menu-toggle js-close-menu">
+        <button class="menu-toggle-close js-close-menu">
             <svg class="menu-mobile-close-icon" width="8" height="8">
                 <use href="./images3/sprite4.svg#icon-vector"></use>
             </svg>
         </button>
     
-        <ul class="mobile-menu">
-            <li><a href="" class="link">Studio</a></li>
-            <li><a href="" class="link">Portfolio</a></li>
-            <li><a href="" class="link">Contacts</a></li>
-            <li><a href="" class="link"></a></li>
+        <ul class="mobile-menu list">
+            <li class="mobile-menu-item"><a href="" class="list-a mobile-nav-link">Studio</a></li>
+            <li class="mobile-menu-item"><a href="" class="list-a mobile-nav-link">Portfolio</a></li>
+            <li class="mobile-menu-item"><a href="" class="list-a mobile-nav-link color-link">Contacts</a></li>
         </ul>
+
+        <div class="mobile-wrapper">
+            <ul class="contact list">
+                <li class="contact-item"><a href="tel:+11-000-111-11-11" class="contact-tel list-a">+11 (000) 111-11-11</a></li>
+                <li class="contact-item"><a href="mailto:info@devstudio.com" class="contact-mail list-a">info@devstudio.com</a></li>
+            </ul>
+            
+            <ul class="style-icon list">
+                <li class="icon-group-mobile">
+                    <a class="icon-hero-mobile" href="">
+                        <svg class="icon-seti" width="24" height="24">
+                            <use href="./images3/sprite1.svg#icon-instagram-2"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="icon-group-mobile">
+                    <a class="icon-hero-mobile" href="">
+                        <svg class="icon-seti" width="24" height="24">
+                            <use href="./images3/sprite1.svg#icon-twitter-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="icon-group-mobile">
+                    <a class="icon-hero-mobile" href="">
+                        <svg class="icon-seti" width="24" height="24">
+                            <use href="./images3/sprite1.svg#icon-facebook-1"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="icon-group-mobile">
+                    <a class="icon-hero-mobile" href="">
+                        <svg class="icon-seti" width="24" height="24">
+                            <use href="./images3/sprite1.svg#icon-linkedin-1"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
     </div>
 
 
@@ -504,8 +541,10 @@
                     <label class="box">
                     <input class="checkbox" type="checkbox" name="checkbox" value="box" id="box" />
                     <span class="icon-checkbox" ></span>
-                    I accept the terms and conditions of the  
-                            <a href="">Privacy Policy</a>
+                    <span>
+                        I accept the terms and conditions of the
+                        <a href="">Privacy Policy</a>
+                    </span>
 
                     </label>
                 </div>
