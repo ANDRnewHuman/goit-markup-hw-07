@@ -21,36 +21,49 @@
     <div class="conteiner header-flex">
             <a class="logo list-a" href="./index.html">Web<span class="stud list-a">Studio</span></a>
             <nav class="nav">
-
                 <ul class="site-nav list list-a">
                     <li class="item"><a href="./index.html" class="hover current list-a">Studio</a> </li>
                     <li class="item"><a href="./portfolio.html" class="hover list-a">Portfolio</a></li>
                     <li class="item"><a href="" class="hover list-a">Contacts</a></li>
                 </ul>
-
-
-                <div class=burger-off>
-                    <button type="button" 
-                    class="menu-toggle js-open-menu" 
-                    aria-expanded="false" 
-                    aria-controls="menu-bg">
-                        <svg width="30" height="20" aria-label="pointer menu">
-                            <use class="icon-burger" href="./images3/sprite4.svg#icon-burger"></use>
-                        </svg>
-                    </button>
-                    <div class="menu-bg js-open-menu" id="menu-bg">
-                        Content menu
-                    </div>
-                </div>
             </nav>
+
 
             <ul class="auth-nav list">
                 <li class="item"><a href="mailto:info@devstudio.com" class="hover list-a">info@devstudio.com</a></li>
                 <li class="item"><a href="tel:+11-000-111-11-11" class="hover list-a">+11 (000) 111-11-11</a></li>
             </ul>
+
+
+
+            <button type="button" 
+            class="menu-toggle js-open-menu" 
+            aria-expanded="false" 
+            aria-controls="mobile-menu">
+                <svg width="30" height="20">
+                    <use class="icon-burger" href="./images3/sprite4.svg#icon-burger"></use>
+                </svg>
+            </button>
+            
+
+            
             
     </div>
     </header>
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-toggle js-close-menu">
+            <svg class="menu-mobile-close-icon" width="8" height="8">
+                <use href="./images3/sprite4.svg#icon-vector"></use>
+            </svg>
+        </button>
+    
+        <ul class="mobile-menu">
+            <li><a href="" class="link">Studio</a></li>
+            <li><a href="" class="link">Portfolio</a></li>
+            <li><a href="" class="link">Contacts</a></li>
+            <li><a href="" class="link"></a></li>
+        </ul>
+    </div>
 
 
 
@@ -432,25 +445,11 @@
 
 
 
-    <!-- <div class="mail-button">
-        <div class="footel-label">
-            <input type="email" name="mail" id="mail" placeholder="E-mail" />
-        </div>
-    
-        <div class="button-telegram">
-            <button class="footer-button">Subscribe</button>
-            <svg class="icon-telegram" width="24px" height="20px">
-                <use href="./images3/sprite2.svg#icon-icon-send-2"></use>
-            </svg>
-        </div>
-    </div> -->
-
-
 
 
 
     <!-- Модельное окно -->
-<!-- <div class="model-windows is-hidden" data-modal>
+<div class="model-windows is-hidden" data-modal>
     <div class="modal">
         <div class="div-model-button">
             <button class="model-button" data-modal-close></button>
@@ -517,7 +516,7 @@
                 </div>
             </form>
     </div>
-</div> -->
+</div>
 
 
 
